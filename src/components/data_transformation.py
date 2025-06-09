@@ -30,7 +30,7 @@ class DataTransformation:
     def __init__(self):
           self.data_transformation_config=DataTransformationConfig() 
 
-
+    '''This function helps in storing the path where the preprocessor object is stored'''
 
     def get_data_transformer_object(self):#create pickle files which is used for transformation
         '''
