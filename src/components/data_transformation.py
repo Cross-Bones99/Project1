@@ -16,6 +16,12 @@ import os
 
 from src.utils import save_object
 
+
+#decorator @dataclass is used in place of  this for easy readibility
+'''def __init__(self, preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')):
+    self.preprocessor_obj_file_path = preprocessor_obj_file_path'''
+
+
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')
